@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelActivity">
+
+    <TextView
+        android:id="@+id/textview10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="20182337 NGS"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF7469"
+        android:text="메뉴로" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC36B"
+        android:text="로그인으로" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="전화걸기" />
+
+    <TextView
+        android:id="@+id/textView_data"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/mainFragment"
+            android:name="com.example.app5.MainFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

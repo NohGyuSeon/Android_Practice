@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Chapter_8"
+include ':app'
+include ':app2'
+include ':app3'
+include ':app4'
+include ':app5'
+include ':app6'
+include ':app7'

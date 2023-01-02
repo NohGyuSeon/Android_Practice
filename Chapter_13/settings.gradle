@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        jcenter() //add
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter() //add
+    }
+}
+rootProject.name = "Chapter_13"
+include ':app'
+include ':app2'
+include ':app3'
+include ':app4'
+include ':app5'
+include ':app6'
+include ':app7'
+include ':app8'
+include ':app9'
+include ':app10'

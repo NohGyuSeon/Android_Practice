@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chapter_3</string>
+    <string name="text1">여기에 사용자 이름을 입력합니다. 이름을 입력하세요.</string>
+    <string name="naver">https://www.naver.com/</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textview10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="20182337 NGS"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEF60"
+        android:text="두 번째 화면 부르기" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="전화걸기" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="네이버" />
+
+</LinearLayout>
